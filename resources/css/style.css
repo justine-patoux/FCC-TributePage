@@ -1,0 +1,72 @@
+*, ::before, ::after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Raleway, sans-serif;
+    margin: 0;
+    background-color: #000;
+}
+
+#main {
+    max-width: 1024px;
+    background-color: #fff;
+    margin: 0 auto;
+    padding-bottom: 3.2rem;
+}
+
+#title {
+    font-size: 3rem;
+    font-weight: 600;
+    text-align: center;
+    padding: 2.4rem 0 0.4rem 0;
+}
+
+#img-div {
+    margin: 3rem auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+#img-caption {
+    font-size: 0.9rem;
+    font-style: italic;
+    color: gray;
+    margin-top: 0.5rem;
+}
+
+#tribute-info h2, h3 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+ul {
+    max-width: 600px;
+    margin: auto;
+}
+
+li {
+    list-style-type: none;
+    padding: 0.8rem;
+}
+
+a {
+    color: inherit;
+}
+
+a:hover {
+    color: gray;
+}
